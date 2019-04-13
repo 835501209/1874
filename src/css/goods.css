@@ -1,0 +1,301 @@
+#goods {
+  width: 100%;
+}
+
+#goods .goods {
+  position: relative;
+  height: 600px;
+}
+
+#goods .goods .goods_img {
+  position: absolute;
+  width: 420px;
+  left: 0;
+  top: 0;
+}
+
+#goods .goods .goods_img .minimg {
+  margin-top: 20px;
+}
+
+#goods .goods .goods_img .minimg img {
+  border: 1px solid #e3e3e3;
+  margin-left: 10px;
+}
+
+#goods .goods .goods_buy {
+  position: absolute;
+  width: 555px;
+  left: 440px;
+  top: 0;
+}
+
+#goods .goods .goods_buy h3 {
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+#goods .goods .goods_buy h3 span {
+  display: inline-block;
+  color: #999999;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+#goods .goods .goods_buy .group_time {
+  height: 48px;
+  background: #cc0000;
+  padding: 10px 12px;
+}
+
+#goods .goods .goods_buy .group_time .group_overtime {
+  display: inline-block;
+  float: right;
+  color: #fff;
+  line-height: 28px;
+}
+
+#goods .goods .goods_buy .group_time .group_overtime span {
+  display: inline-block;
+  margin: 0px 4px;
+}
+
+#goods .goods .goods_buy .group_time .group_overtime .time_num {
+  background: #fff;
+  color: #cc0000;
+  padding: 0px 3px;
+  border-radius: 3px;
+}
+
+#goods .goods .goods_buy .group_price {
+  font-size: 12px;
+  color: #66667d;
+  background: #f7f7f7;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 10px;
+}
+
+#goods .goods .goods_buy .group_price span {
+  display: inline-block;
+  margin: 0px 5px;
+}
+
+#goods .goods .goods_buy .group_price span:nth-child(2) {
+  font-size: 12px;
+  color: #999999;
+  text-decoration: line-through;
+}
+
+#goods .goods .goods_buy .group_price span:nth-child(3) {
+  background: #cc0000;
+  color: #fff;
+  font-size: 12px;
+  line-height: 18px;
+  border-radius: 3px;
+  padding: 0px 5px;
+}
+
+#goods .goods .goods_buy .group_price .group_goods_pricce {
+  font-size: 22px;
+  color: #cc0000;
+  font-weight: 900;
+}
+
+#goods .goods .goods_buy .datail_info dt {
+  width: 60px;
+  height: 32px;
+  font-size: 12px;
+  color: #666666;
+  line-height: 32px;
+  vertical-align: middle;
+}
+
+#goods .goods .goods_buy .datail_info dd {
+  font-size: 12px;
+}
+
+#goods .goods .goods_buy .datail_info dd em {
+  font-weight: 900;
+}
+
+#goods .goods .goods_buy .datail_info dd span {
+  display: inline-block;
+  color: #ff3333;
+  font-weight: 900;
+  margin-right: 12px;
+}
+
+#goods .goods .goods_buy .datail_info dd .shop_name {
+  color: #337edb;
+  margin-left: 6px;
+  font-weight: 100;
+}
+
+#goods .goods .goods_buy .datail_info dd .shop_name:hover {
+  color: #cc0000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#goods .goods .goods_buy .datail_info dd li {
+  float: left;
+  line-height: 22px;
+  margin-right: 20px;
+}
+
+#goods .goods .goods_buy .datail_info dd li i {
+  display: inline-block;
+  color: #00ae75;
+  margin: 0px 6px;
+  font-size: 20px;
+}
+
+#goods .goods .goods_buy .datail_info dd .goods_color {
+  margin-top: 10px;
+}
+
+#goods .goods .goods_buy .datail_info dl:nth-child(5) {
+  background: #f7f7f7;
+  padding: 5px 0px;
+}
+
+#goods .goods .goods_buy .datail_info dl:nth-child(5) dd {
+  border: 1px solid #cc0000;
+  padding: 5px;
+}
+
+#goods .goods .goods_buy .datail_info dl:nth-child(7) dd {
+  border: 2px solid #cc0000;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+#goods .goods .goods_buy .datail_info dl:nth-child(8) {
+  padding-top: 10px;
+}
+
+#goods .goods .goods_buy .datail_info dl:nth-child(8) dd span {
+  background: #fafafa;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #eee;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  font-weight: 100;
+  margin: 0;
+  cursor: pointer;
+}
+
+#goods .goods .goods_buy .datail_info dl:nth-child(8) dd input {
+  margin-top: -10px;
+  border: 1px solid #eee;
+  height: 30px;
+  width: 46px;
+  margin: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+#goods .goods .goods_buy .datail_info .goods_color span {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 5px;
+  color: #000;
+  font-weight: 100;
+}
+
+#goods .goods .goods_buy .buy_btn {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+#goods .goods .goods_buy .buy_btn a {
+  display: inline-block;
+  width: 140px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  border-radius: 3px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#goods .goods .goods_buy .buy_btn a:nth-child(1) {
+  background: #cc0000;
+  color: #fff;
+}
+
+#goods .goods .goods_buy .buy_btn a:nth-child(2) {
+  background: #ffeded;
+  color: #cc0000;
+  border: 1px solid red;
+}
+
+#goods .goods .goods_buy .buy_btn a.car_btn:hover {
+  background: #ffe2e2;
+}
+
+/*#goods .goods .goods_buy .datail_info dl{
+    vertical-align: middle;
+}*/
+#goods .goods .goods_buy .datail_info dt, #goods .goods .goods_buy .datail_info dd {
+  display: inline-block;
+}
+
+.tanchuang {
+  display: none;
+  height: 200px;
+  width: 430px;
+  padding: 40px  0px 0px  120px;
+  position: fixed;
+  left: 200px;
+  top: 200px;
+  background: url(../images/car_yes.png) no-repeat 50px 50px #fff;
+  border: 3px solid #ccc;
+}
+
+.tanchuang h3 {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.tanchuang p {
+  font-size: 12px;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+.tanchuang p span {
+  padding: 0px 5px;
+}
+
+.tanchuang input {
+  display: inline-block;
+  font-size: 12px;
+  width: 110px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.tanchuang input:nth-of-type(1) {
+  background: #cc0000;
+  color: #fff;
+}
+
+.tanchuang input:nth-of-type(2) {
+  background: #fff;
+}
+
+.tanchuang .close {
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  color: #999;
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+}

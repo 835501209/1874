@@ -1,0 +1,194 @@
+#main {
+  width: 100%;
+}
+
+#main .title {
+  width: 990px;
+  margin: 0 auto;
+  color: #A699A6;
+  font-size: 20px;
+  padding: 16px 0px;
+  text-align: center;
+  background: #FAFAFA;
+  border: 1px solid #e4e4e4;
+  border-bottom: none;
+}
+
+#main .sign {
+  width: 990px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #e4e4e4;
+  border-top: none;
+}
+
+#main .sign .sign_main {
+  width: 600px;
+  height: 600px;
+  padding: 30px 0px 0px 90px;
+}
+
+#main .sign .sign_main ul {
+  overflow: hidden;
+}
+
+#main .sign .sign_main ul li:first-child {
+  width: 50%;
+  border: 1px solid #e6e6e6;
+  border-top: 2px solid #CC0000;
+  border-bottom: 1px solid #fff;
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 16px;
+  color: #df0000;
+}
+
+#main .sign .sign_main ul li:nth-child(2) {
+  width: 50%;
+  float: left;
+  border-bottom: 1px solid #e6e6e6;
+  height: 40px;
+}
+
+#main .sign .sign_main form label {
+  display: inline-block;
+  width: 86px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+#main .sign .sign_main form input {
+  display: inline-block;
+  width: 290px;
+  height: 40px;
+  border: 1px solid #e7e7e7;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+#main .sign .sign_main form input:nth-of-type(4) {
+  width: 170px;
+}
+
+#main .sign .sign_main form canvas {
+  width: 110px;
+  height: 40px;
+  margin-left: 10px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#main .sign .sign_main form span {
+  margin-left: 91px;
+  font-size: 12px;
+  color: #999;
+  padding-top: 3px;
+}
+
+#main .sign .sign_main form p {
+  font-size: 12px;
+  color: #555;
+  padding-left: 120px;
+  margin-top: 30px;
+}
+
+#main .sign .sign_main form p input[type="checkbox"] {
+  width: 13px;
+  height: 13px;
+  margin-right: 8px;
+}
+
+#main .sign .sign_main form p a {
+  display: inline-block;
+  color: #134ba0;
+}
+
+#main .sign .sign_main form p a:hover {
+  color: #CC0000;
+  text-decoration: underline;
+}
+
+#main .sign .sign_main form .btn_sign {
+  width: 290px;
+  height: 40px;
+  background: #DE3030;
+  color: #fff;
+  margin-left: 91px;
+  margin-top: 27px;
+}
+
+#main .sign .sign_main form em {
+  display: inline-block;
+  font-size: 12px;
+  color: #CC0000;
+  margin-left: 10px;
+}
+
+#main .sign .sign_fast {
+  width: 300px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#main .sign .sign_fast p {
+  font-size: 12px;
+  color: #666;
+  line-height: 26px;
+}
+
+#main .sign .sign_fast p span {
+  display: inline-block;
+  color: #134ba0;
+}
+
+#main .sign .sign_fast p span:hover {
+  color: #CC0000;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#main .sign .sign_fast a {
+  display: inline-block;
+  width: 170px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 3px;
+  text-align: left;
+  padding-left: 23px;
+}
+
+#main .sign .sign_fast a i {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+#main .sign .sign_fast a:nth-of-type(1) {
+  background: #5BAF30;
+}
+
+#main .sign .sign_fast a:nth-of-type(2) {
+  background: #F55643;
+}
+
+#main .sign .sign_fast a:nth-of-type(3) {
+  background: #039AE3;
+}
+
+#main .sign .sign_fast a:nth-of-type(4) {
+  background: #F57601;
+}
+
+#main .sign .sign_fast a:nth-of-type(5) {
+  background: #545BE7;
+}

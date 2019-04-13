@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common2.css" />
+    <link rel="stylesheet" type="text/css" href="../iconfont/iconfont.css" />
+    <link rel="stylesheet" type="text/css" href="../css/sign.css" />
+<!--     <script src="../lib/jquery-3.0.0.js"></script>
+    <script src="../lib/verification_code.js"></script>
+    <script src="../js/sign.js"></script>
+ -->    <script src="../lib/require.js" data-main="../js/sign"></script>
+</head>
+
+<body>
+    <!-- 1.header -->
+    <div id="header">
+        <div class="header">
+            <img src="../images/header_logo.png" height="65" width="140" alt="" />
+            <a href="../index.html">中关村在线旗下网上商城</a>
+            <div class="register">已经有Z商城账号？<a href="login.html">立即登录</a></div>
+        </div>
+    </div>
+    <!-- 2.main -->
+    <div id="main">
+        <div class="title">30秒快速注册。加入Z商城</div>
+        <div class="sign">
+            <div class="sign_main fl">
+                <ul>
+                    <li>新用户注册</li>
+                    <li></li>
+                </ul>
+                <form action="">
+                    <label>＊用户名：</label><input type="text" class="user"/><em></em><br />
+                    <span>请输入用户名（5-12位，仅支持中文。数字，字母）</span><br />
+                    <label>＊密码：</label><input type="text"class="password" /><em></em><br />
+                     <span>6-14位字母和数字的组合，不可用特殊字符</span><br />
+                    <label>＊确认密码：</label><input type="text" class="reput_password"/><em></em><br />
+                     <span>再次输入密码</span><br />
+                    <label>验证码：</label><input type="text" value=""  class="input-val"><canvas id="canvas" width="100" height="30"></canvas><br />
+                    <p><input type="checkbox" />同意<a href="##">《商城用户协议》</a><a href="##">《隐私权说明》</a></p>
+                    <button type="button" class="btn_sign">注册</button>
+                </form>
+            </div>
+            <div class="sign_fast fr">
+                <p>如果你已经注册，请<span>直接登录</span><br />或者用以下方式登录</p>
+                <a href="##"><i class="iconfont icon-weixin"></i>微信账号登录</a><br />
+                <a href="##"><i class="iconfont icon-xinlang"></i>新浪微博登录</a><br />
+                <a href="##"><i class="iconfont icon-qq"></i>腾讯QQ登录</a><br />
+                <a href="##"><i class="iconfont icon-changyonglogo30"></i>支付宝账号登录</a><br />
+                <a href="##"><i class="iconfont icon-icon_baidulogo"></i>百度账号登录</a><br />
+            </div>
+        </div>
+    </div>
+    <!-- 3.footer -->
+    <div id="footer">
+        <div class="footer">
+            <div class="foot_about">
+                <a href="##">关于Z商城</a>
+                <a href="##">联系我们</a>
+                <a href="##">帮助中心</a>
+                <p>@2019.中关村在线 版权所有</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

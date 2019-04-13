@@ -1,0 +1,162 @@
+#login {
+  width: 100%;
+}
+
+#login .login {
+  width: 990px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+#login .login .login_main {
+  height: 350px;
+  width: 470px;
+  padding: 20px 90px 0px 90px;
+  border: 1px solid #e3e3e3;
+}
+
+#login .login .login_main .login_head {
+  white-space: nowrap;
+}
+
+#login .login .login_main .login_head span {
+  display: inline-block;
+  width: 49%;
+  height: 33px;
+  font-size: 18px;
+  color: #000;
+  text-align: center;
+  line-height: 33px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#login .login .login_main .login_head span:first-child {
+  border-bottom: 2px solid #CC0000;
+}
+
+#login .login .login_main .login_head span:nth-of-type(2) {
+  border-bottom: 2px solid #e3e3e3;
+}
+
+#login .login .login_main form input {
+  display: inline-block;
+  width: 100%;
+  padding: 6px 6px;
+  font-size: 14px;
+  color: #757575;
+  line-height: 26px;
+  margin-top: 15px;
+  border: 1px solid #d2d2d2;
+}
+
+#login .login .login_main form .login_active {
+  border: 1px solid #CC0000;
+}
+
+#login .login .login_main form label {
+  display: block;
+  margin-top: 10px;
+}
+
+#login .login .login_main form label a {
+  font-size: 12px;
+  color: #000;
+}
+
+#login .login .login_main form label a i {
+  display: inline-block;
+  color: #CC0000;
+  margin-right: 5px;
+}
+
+#login .login .login_main form label a:first-child {
+  width: 60%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#login .login .login_main form label a:last-child {
+  color: #134BA0;
+  width: 30%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+#login .login .login_main form .btn_denglu {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  background: #DC2E2E;
+  color: #fff;
+  font-weight: 900;
+}
+
+#login .login .login_main .partline {
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+#login .login .login_main .partline .xian {
+  float: left;
+  width: 100px;
+  height: 1px;
+  border-bottom: 1px solid #d4d4d4;
+  margin-top: 9px;
+}
+
+#login .login .login_main .partline p {
+  float: left;
+  font-size: 12px;
+  width: 72px;
+  line-height: 18px;
+  margin: 0px 8px;
+  color: #666;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#login .login .login_main .login_other {
+  width: 100%;
+  text-align: center;
+  padding-top: 14px;
+}
+
+#login .login .login_main .login_other a {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  border-top: 1px solid #c3c3c3;
+  border-radius: 50%;
+  margin: 0px 6px;
+  line-height: 36px;
+}
+
+#login .login .login_main .login_other a i {
+  display: inline-block;
+  font-size: 26px;
+}
+
+#login .login .login_main .login_other a:nth-child(1) i {
+  color: #5BAF30;
+}
+
+#login .login .login_main .login_other a:nth-child(2) i {
+  color: #F77E6F;
+}
+
+#login .login .login_main .login_other a:nth-child(3) i {
+  color: #039AE3;
+}
+
+#login .login .login_main .login_other a:nth-child(4) i {
+  color: #F57601;
+}
+
+#login .login .login_main .login_other a:nth-child(5) i {
+  color: #2932E1;
+}
